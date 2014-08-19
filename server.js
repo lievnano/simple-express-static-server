@@ -3,7 +3,7 @@ var express = require("express"),
     bodyParser = require('body-parser'),
     errorHandler = require('errorhandler'),
     methodOverride = require('method-override'),
-    port = parseInt(process.env.PORT, 10) || 4567;
+    port = 80;
 
 app.get("/", function (req, res) {
   res.redirect("/index.html");
